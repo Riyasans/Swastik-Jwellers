@@ -6,11 +6,14 @@
     padding: 20px 80px;
     background-color: rgb(156, 167, 109);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.07);
-    z-index: 999;
+    z-index:999;
     position: sticky;
     top:0;
-    left:0;
+   
 
+}
+body{
+    width: 100%;
 }
 #header .logo{
     width: 100%;
@@ -23,6 +26,7 @@
     justify-content: center;
 
 }
+
 #navbar li{
     list-style: none;
     padding: 0 20px;
@@ -59,10 +63,10 @@
     height: 90vh;
     width: 100%;
     background-position: top 25% right 0;
-    background-size: auto;
+    padding: 0 0px;
+    background-size:cover;
     background-repeat: no-repeat;
     background-color: #696c6b;
-    padding: 0 80px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -73,15 +77,35 @@
 
 
 }
+#hero h4{
+    margin-left: 50px;
+}
+#hero h2{
+   
+    margin-left: 50px;
+}
+#hero h1{
+   
+    margin-left: 50px;
+}
+#hero p{
+    
+    margin-left: 50px;
+}
+#hero button{
+   
+    margin-left: 50px;
+}
 #hero h1{
     color: rgb(176, 152, 12);
 }
+
 #hero button{
     background-image: url("banner.jpg");
     background-color: transparent;
     color: rgb(195, 195, 213);
-    border: 0;
-    padding: 14px 88px 14px 65px;
+    border: 10px;
+    padding: 14px 80px 14px 65px;
     background-repeat: no-repeat;
     cursor: pointer;
     font-weight: 700;
@@ -518,17 +542,21 @@ footer .copyright{
 
 
 #hero{
-  
-    height: 70vh;
+    height: 20vh;
     background-position: top 30% right 30%;
-    padding: 0 80px;
+    padding: 0 0px;
 
 } 
 #feature{
     justify-content:center;
 }
+#feature {
+    margin-left: 10px;
+    margin-right: 10px;
+}
 #feature .fe-box{
-    margin: 15px 15px;
+    margin: 10px 10px;
+   
 }
 #product1 .pro-container{
    
@@ -537,16 +565,15 @@ footer .copyright{
 }
 #product1 .pro{
     
-    margin: 15px ;
+    margin: 15px;
     
 }
 #banner{
-    height: 20vh;
+    height: 15vh;
 }
 #sm-banner .banner-box{
-    
-    width:100%;
-    height: 35vh;
+    width:100px;
+    height: 30vh;
     
  
    
@@ -555,7 +582,7 @@ footer .copyright{
     display: flex;
     justify-content: space-between;
     flex-wrap:wrap;
-    padding: 0 40px;
+    padding: 0 0px;
 }
 #banner3 .banner-box{
     
@@ -587,26 +614,30 @@ footer .copyright{
 }
 @media (max-width: 477px) {
     .section-p1{
-        padding: 20px;
+        padding: 10px;
     }
     #header{
-        padding: 10px 30px;
+        width: 100%;
+        padding: 10px 10px;
     }
     #feature .fe-box{
-        width: 155px;
+        width: 100%;
         margin: 0 0 15px 0;
     }
     #banner{
-        height: 40vh;
+        height: 20vh;
     }
 
     #sm-banner .banner-box{
-        height: 40vh;
+        width: 100%;
+        height: 30vh;
     }
     #sm-banner .banner-box2{
        margin-top: 15px;
+       padding-right: 20px;
     }
-
+    
+   
     #feature {
         justify-content: space-between;
     }
@@ -614,21 +645,24 @@ footer .copyright{
         width: 100%;
     }
     #banner3 {
-        padding: 0 20px;
+        padding: 0 10px;
     }
-    #banner3b .banner-box{
+    #banner3 .banner-box{
         width: 100%;
     }
 
     #hero{
-        padding: 0 20px;
-        background-position: 55%;
-    }
+        padding: 5px 5px 5px 5px;
+        height:380px;
+        background-position: 100%;
+    } 
+
     h2{
-        font-size:32px ;
+        margin-right: 5px;
+        font-size:22px;
     }
     h1{
-        font-size: 38px;
+        font-size: 28px;
     }
     #newsletter .form{
         width: 100%;
@@ -640,9 +674,16 @@ footer .copyright{
         text-align: start;
     }
     /*single product*/
-    #prodetail {
+    #prodetail{
         display: flex;
         flex-direction: column;
+    }
+    #prodetail{
+        width: 100%;
+    }
+    #prodetail .single-pro-details{
+        width: 100%;
+        padding-top: 10px;
     }
     #prodetail .single-pro-image{
         width: 100%;
@@ -657,12 +698,12 @@ footer .copyright{
         flex-direction:column;
         align-items: flex-start;
     }
+    
     #blog {
-        padding: 100px 20px 0 20px;
+        padding: 0px 0px 0 0px;
     }
     #bolg .blog-img {
         width: 100%;
-        width: 330px;
         margin-right: 0px;
         margin-bottom: 15px;
     }
@@ -696,9 +737,8 @@ footer .copyright{
         width: 100%;
     }
     #form-details {
-        width: 80%;
-        margin: 10px;
-        padding: 10px 10px;
+       
+        margin: 2px;
         flex-wrap: wrap;
     
     }
@@ -711,6 +751,7 @@ footer .copyright{
         
     
     }
+    
     /*cart*/
      #cart-add {
         flex-direction: column;
@@ -732,7 +773,7 @@ footer .copyright{
 /* shop page*/
 #page-header{
     background-image: url("glass.JPG");
-    width: 100%;
+    width: 98%;
     height: 40vh;
     background-size: cover;
     display: flex;
@@ -769,9 +810,8 @@ footer .copyright{
 }
 
 #prodetail .single-pro-image {
-    width: 40%;
-    margin-right: 70px;
-
+    width: 48%;
+    margin-right: 40px;
 }
 .small-img-group {
     display: flex;
@@ -920,6 +960,12 @@ margin-right: 40px;
     height: 100%;
     border-radius: 20px;
 }
+#page-header.contact-heade{
+    background-image: url("NIW-GEMSTONES-TREASURES-WALLPAPER.jpg");
+
+}
+
+
 
 #contact-deatils {
     display: flex;
@@ -968,9 +1014,9 @@ margin-right: 40px;
 #form-details{
     display: flex;
     justify-content: space-between;
-    margin: 30px;
+    margin: 60px;
    
-    padding: 25px;
+    padding: 20px;
     
     border: 3px solid  rgb(156, 167, 109);
 
@@ -982,15 +1028,14 @@ margin-right: 40px;
     margin-top: 5px;
 }
 
-
 #form-details form {
-width: 68%;
+width: 100%;
 display: flex;
 flex-direction: column;
 align-items: flex-start;
 }
 #form-details form input, #form-details form textarea {
-    width: 100%;
+    width: 90%;
     padding: 12px 15px ;
     margin-bottom: 15px;
     border: 1px solid #222;
