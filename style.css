@@ -624,6 +624,41 @@ footer .copyright{
         width: 100%;
         margin: 0 0 15px 0;
     }
+    #hero h4{
+        padding-bottom: 8px;
+
+        font-size: 12px;
+    
+    
+    }
+    #hero h4{
+        margin-left: 5px;
+        font-size: 12px;
+    }
+    #hero h2{
+       
+        margin-left: 5px;
+        font-size: 13px;
+    }
+    #hero h1{
+       
+        margin-left: 5px;
+        font-size: 15px;
+    }
+    #hero p{
+        
+        margin-left: 5px;
+        font-size: 8px;
+    }
+    #hero button{
+        margin-left: 5px;
+        padding: 10px 40px 12px 40px;
+        font-size: 15px;
+
+    }
+    #hero h1{
+        color: rgb(176, 152, 12);
+    }
     #banner{
         height: 20vh;
     }
@@ -737,8 +772,7 @@ footer .copyright{
         width: 100%;
     }
     #form-details {
-       
-        margin: 2px;
+        margin: 0px;
         flex-wrap: wrap;
     
     }
@@ -1014,9 +1048,8 @@ margin-right: 40px;
 #form-details{
     display: flex;
     justify-content: space-between;
-    margin: 60px;
-   
-    padding: 20px;
+    margin: 40px;
+    padding: 25px;
     
     border: 3px solid  rgb(156, 167, 109);
 
@@ -1029,7 +1062,7 @@ margin-right: 40px;
 }
 
 #form-details form {
-width: 100%;
+width: 98%;
 display: flex;
 flex-direction: column;
 align-items: flex-start;
